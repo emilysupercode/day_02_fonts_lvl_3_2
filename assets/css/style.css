@@ -1,0 +1,87 @@
+@font-face {
+    font-family: cinzel;
+    src: url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: shadows into light;
+    src: url(../fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-shadow: 5px 2px red;
+    text-transform: capitalize;
+}
+
+h1,
+h3 {
+    font-family: "shadows into light";
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h2 {
+    background-color: lightgreen;
+    font-family: pacifico;
+}
+
+p {
+    font-family: lato;
+    word-spacing: 10px;
+}
+
+strong {
+    color: gold;
+}
+
+em {
+    color: red;
+}
+
+ol,
+h5 {
+    font-family: cinzel;
+}
+
+ol {
+    color: red;
+    font-size: 18px;
+}
+
+ol,
+li {
+    line-height: 36px;
+}
+
+h5 {
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: pacifico;
+    background-color: yellow;
+    text-indent: 40px;
+    font-size: 40px;
+    text-shadow: -10px 3px gray;
+    word-spacing: 20px;
+}
+
+ul {
+    background-color: lightgray;
+    list-style: none;
+}
